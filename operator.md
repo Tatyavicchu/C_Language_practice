@@ -13,6 +13,7 @@
  int a= 5, b=2;
    int power= pow(a,b);
    printf("%d",power);
+   return 0;
 ```
 - ## logical operators
   - `&&` -> and 
