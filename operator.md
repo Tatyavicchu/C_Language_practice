@@ -7,14 +7,15 @@
   - `%` -> to get remainder of two numbers
     - ### NOTE: '%' does not work with decimal numbers
   - `pow` -> function used to find power of two numbers
-  - ```c
-  ### Example
+ ## Syntax
+   ```c
  #include <stdio.h>
  int main() {
  int a= 5, b=2;
    int power= pow(a,b);
    printf("%d",power);
    return 0;
+   }
    ```
 - ## logical operators
   - `&&` -> and 
