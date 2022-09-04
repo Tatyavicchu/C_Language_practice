@@ -17,5 +17,8 @@
    return 0;
    }
    ```
-- ## logical operators
-  - `&&` -> and 
+- ## Conversion 
+
+- #### this is of two type one is IMPLICIT and other is EXPLICIT.
+- IMPLICIT conversion is done by compiler himself but EXPLICIT conversion is done by us and the compiler is forced to do it.
+-   
