@@ -21,4 +21,13 @@
 
 - #### this is of two type one is IMPLICIT and other is EXPLICIT.
 - IMPLICIT conversion is done by compiler himself but EXPLICIT conversion is done by us and the compiler is forced to do it.
--   
+
+
+## Operator precedence
+ - this is the operator's order like BODMASS in mathematics.
+    - `a` -> '/' , '%' 
+    - `b` -> '+' , '-' 
+    - `c` -> '=' 
+   ### NOTE : - If two operators of same precedence are present in the program then solution should be done by left to right.
+      ###      - If a bracket is present, first solve the bracket and then continue as told above.
+      
