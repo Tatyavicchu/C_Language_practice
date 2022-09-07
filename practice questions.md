@@ -1,7 +1,7 @@
 # Questions
 
 
-### `Question 1` ->  write a program to print the average of two numbers.
+### `Question 1` ->  Write a program to print the average of two numbers.
 
   ```c
   #include <stdio.h>
