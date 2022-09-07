@@ -20,3 +20,7 @@
    return 0;
 }
   ```
+
+|sno|name|solution|
+|-|-|-|
+|[c++](https://github.com/Tatyavicchu/C_Language_practice/edit/main/practice%20questions.md)|fhg|
