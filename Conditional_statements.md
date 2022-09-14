@@ -1,5 +1,7 @@
 # conditional statements are used to run certain part of code according to the output of condition
 ## -> there are two types of conditional statements
+     -> else/if loop
+     -> switch loop
   ### - If/ Else conditional loops
         In this type of loop only two conditioln is possible.
  ```c
