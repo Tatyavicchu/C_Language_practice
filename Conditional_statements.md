@@ -50,9 +50,9 @@ printf("no");
 }
 ```
 ## S/C Ternary operator
-         this is the shortcut for the "if/else" loop.
-         
-            condition? do soomething if TRUE : do something if FALSE;
+         this is the shortcut for the "if/else" loop but only two conditions will be made.
+                   
+                 "  condition? do something if TRUE : do something if FALSE;  "
    ```c
     #include <stdio.h>
 #include<math.h>
