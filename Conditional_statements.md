@@ -47,6 +47,23 @@ printf("no");
    return 0;
 }
 ```
+## S/C Ternary operator
+         this is the shortcut for the "if/else" loop.
+         
+            condition? do soomething if TRUE : do something if FALSE;
+   ```c
+    #include <stdio.h>
+#include<math.h>
+ int main() {
+ int age;
+  printf("enter age \n");
+   scanf("%d",&age);
+   
+age>18? printf("adult/n") :printf("teen");
+   
+   return 0;
+}
+        ```
  ### -  Switch conditionl loops
         in this type of conditonal looop multiple conditions can be made.
 
