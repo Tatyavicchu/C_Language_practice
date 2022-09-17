@@ -26,12 +26,14 @@
   ###                 marks<30 = fail, marks>30 = pass, marks>100 = Not valid.
   
   ```c
-  #include <stdio.h>
+ #include <stdio.h>
 # include<math.h>
- int main() {
-   int marks;
-   printf("enter your marks(1-100)  :");
-     scanf("%d",&marks);
+  int main() {
+    int marks;
+  
+  printf("enter your marks(1-100)  :");
+   scanf("%d",&marks);
+    // marks>30? printf("pass") :printf("fail");
    if(marks<=30){
      printf("fail");
    }
@@ -42,8 +44,8 @@
    else{
      printf("not valid");
    }
-   
    return 0;
+}
 }
   ```
 
