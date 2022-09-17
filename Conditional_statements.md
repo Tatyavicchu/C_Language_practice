@@ -69,8 +69,8 @@ age>18? printf("adult/n") :printf("teen");
  ### -  Switch conditionl statements
         in this type of conditonal statements multiple conditions can be made.
         
-  ## syntax
-        ```c
+  ## Syntax
+   ```c
         #include <stdio.h>
     # include<math.h>
  int main() {
