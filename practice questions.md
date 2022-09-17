@@ -20,6 +20,32 @@
    return 0;
 }
   ```
+  
+  
+  ### `Question 2` -> write a program for pass/fail marks system
+  ###                 marks<30 = fail, marks>30 = pass, marks>100 = Not valid.
+  
+  ```c
+  #include <stdio.h>
+# include<math.h>
+ int main() {
+   int marks;
+   printf("enter your marks(1-100)  :");
+     scanf("%d",&marks);
+   if(marks<=30){
+     printf("fail");
+   }
+   else if(marks>30 && marks<=100)
+   {
+     printf("pass");
+   }
+   else{
+     printf("not valid");
+   }
+   
+   return 0;
+}
+  ```
 
 |sno|name|solution|
 |-|-|-|
