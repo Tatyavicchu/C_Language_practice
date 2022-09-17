@@ -65,7 +65,30 @@ age>18? printf("adult/n") :printf("teen");
    
    return 0;
 }
-        ```
- ### -  Switch conditionl loops
-        in this type of conditonal looop multiple conditions can be made.
+   ```
+ ### -  Switch conditionl statements
+        in this type of conditonal statements multiple conditions can be made.
+        
+  ## syntax
+        ```c
+        #include <stdio.h>
+    # include<math.h>
+ int main() {
+   char date; //A seminar cs; B seminar b; C seminar c
+   printf("enter availibility date(A-C) :");
+   scanf("%c",& date);
 
+   switch(date){
+     case'A' : printf("you are available for seminar cs join at 3am ");
+                  break;
+     case 'B': printf("you are available for seminar cs join at 2AM ");
+                  break;
+      case 'C': printf("you are available for seminar cs join at noon");
+                  break;
+     default :   printf(" cant join");
+   }
+
+   
+   return 0;
+}
+     ```
