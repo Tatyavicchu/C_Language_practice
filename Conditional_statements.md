@@ -1,9 +1,9 @@
 # conditional statements are used to run certain part of code according to the output of condition
 ## -> there are two types of conditional statements
-     -> else/if loop
-     -> switch loop
-  ### - If/ Else conditional loops
-        In this type of loop only two conditioln is possible.
+     -> else/if conditional statements
+     -> switch conditional statements
+  ### - If/ Else conditional statements
+        In this type of statments only two conditioln is possible.
  ```c
 // if( condition ){
 // executes if conditon is true
@@ -50,7 +50,7 @@ printf("no");
 }
 ```
 ## S/C Ternary operator
-         this is the shortcut for the "if/else" loop but only two conditions will be made.
+         this is the shortcut for the "if/else" conditional statement but only two conditions will be made.
                    
                  "  condition? do something if TRUE : do something if FALSE;  "
    ```c
