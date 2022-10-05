@@ -90,10 +90,9 @@ age>18? printf("adult/n") :printf("teen");
 
    
    return 0;
-}
-     ```
+   }
+   ```
+###    Conditions for switch operators :
     
- ##   Conditions for switch operators :
-    
- ->  cases can be in any order
- ->  Nested switch( switch inside switch or if/else inside of condition) are allowed.
+      ->  cases can be in any order
+      ->  Nested switch( switch inside switch or if/else inside of condition) are allowed.
