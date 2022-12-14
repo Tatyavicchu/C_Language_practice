@@ -1,6 +1,7 @@
  ##  W.A.P to find a input number is whether a prime number or not.
  
-*/  #include<stdio.h>
+```c
+#include<stdio.h>
 #include<math.h>
 int main(){
  int i,factor,n,count =0;
@@ -20,4 +21,4 @@ int main(){
   
   return 0;
 }
-/*
+```
