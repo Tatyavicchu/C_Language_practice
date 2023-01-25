@@ -3,7 +3,7 @@
 Function is a subprogram within a program which does a particular task not multiple.
 A program has minimum of a single fuction which is main function. Main fuction has a pre-defined name but its defination is user defined.
 
-```
+```c
   1 ->  void helloworld(){
         defination of the function.
         
@@ -12,4 +12,4 @@ A program has minimum of a single fuction which is main function. Main fuction h
         
         }
   
-```
+```c
