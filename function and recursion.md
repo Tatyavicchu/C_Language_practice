@@ -43,7 +43,7 @@ int main(){
 ### 2->  user defined function
       user defined function is named by the user and the defination is also given by the user.
       
-      a-> function without  arguments and without return type.
+      -`a` -> function without  arguments and without return type.
             void function(){}
      
      b-> function without argument and with return type.
