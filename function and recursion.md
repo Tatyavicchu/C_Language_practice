@@ -7,13 +7,15 @@ A program has minimum of a single fuction which is main function. Main fuction h
   1 ->  void helloworld(){
         defination of the function.
         
-        void= return type.
+           void= return type.
         helloworld=name of the fuction or function declaration.
         
         }
   
  ```
+ ### code 1.1
  ```c
+
  #include<stdio.h>
 void namaste(){
   printf("namaste\n");
@@ -34,6 +36,23 @@ int main(){
   return 0;  
 }
  ```
+ ### code 1.2
+ ```c
+     #include<stdio.h>
+int sum(int j, int m){
+  int sum= j+m;
+  return sum;
+}
+int main(){
+  int a,b;
+  printf("enter the value value of numbers:  ");
+  scanf("%d",&a);
+  scanf("%d",&b);
+   int s=sum(a,b);
+  printf("%d",s);
+  return 0;  
+}
+ ```
 
 
 ## Types of function
@@ -43,20 +62,26 @@ int main(){
 ### 2->  user defined function
       user defined function is named by the user and the defination is also given by the user.
       
-      -`a` -> function without  arguments and without return type.
-            void function(){}
-     
-     b-> function without argument and with return type.
-             
+  `a` -> function without  arguments and without return type.
+   ```c              
+                  void function(){}
+   ```            
+  `b` -> function without argument and with return type.
+   ```c          
              int or float or char function(){}
-    
-    c-> function with argument and with return type.
-            
+   ```
+  `c` -> function with argument and with return type.
+   ```c        
             int or float or char  function(int a , int b){} 
-    
-    d-> function with arguments and without return type.
+   ```
+  `d` -> function with arguments and without return type.
+  ```c
              void function(int a, int b){}
-      
-### Passing Arguments
-     'note'  without return type means it does not give any value into the main function but it is only used for printing.
+  ```    
+## Passing Arguments
+ `NOTE:`  
+     Without return type means it does not give any value into the main function but it is only used for printing.
+   
+ ` NOTE :` the variable passed from the main function is called ARGUMENT and to the variable to which it gets passed is called PARAMETER.   
+             In code 1.2 (a,b) is the argument and (j,m) is the parameter.
     
