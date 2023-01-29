@@ -96,5 +96,7 @@ int main(){
  `-` Base case is the condition which stops the recursion.
  
  `-` Iteration has infinite loops but recursion has stack overflow.
- 
+   ```c
+      
+   ```
     
