@@ -7,6 +7,7 @@ A program has minimum of a single fuction which is main function. Main fuction h
   1 ->  void helloworld(){
         defination of the function.
         
+        
            void= return type.
         helloworld=name of the fuction or function declaration.
         
@@ -84,4 +85,16 @@ int main(){
    
  ` NOTE :` the variable passed from the main function is called ARGUMENT and to the variable to which it gets passed is called PARAMETER.   
              In code 1.2 (a,b) is the argument and (j,m) is the parameter.
+             
+             
+ # RECURSION
+ 
+ `-`  A function calling itself is called recursion.
+ 
+ `-` Anything that can be done with iteration or loops can be done with recursion and vice-versa.
+ 
+ `-` Base case is the condition which stops the recursion.
+ 
+ `-` Iteration has infinite loops but recursion has stack overflow.
+ 
     
