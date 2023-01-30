@@ -96,7 +96,28 @@ int main(){
  `-` Base case is the condition which stops the recursion.
  
  `-` Iteration has infinite loops but recursion has stack overflow.
+ 
+ ### `Q` To find the fibunacci series with recursion.
    ```c
-      
+      #include<stdio.h>
+void fibonacci(int z, int x){
+ if(x<200){
+  int sum= z+x;
+  printf("%d\n",sum);
+  z=x;
+  x=sum;
+  return fibonacci(z,x);
+   }
+  else{
+    return;
+    
+  }
+   
+}
+int main(){
+  int a=0,b=1;
+  fibonacci(a,b);
+return 0;  
+}  
    ```
     
