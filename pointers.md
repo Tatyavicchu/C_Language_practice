@@ -47,4 +47,7 @@ return 0;
  int*ptr=&age;
  int ** pptrr=&ptr;
 ```
+# POINTERS IN FUNCTION CALL
+`1` call by value.(all the prevoiusly used function were call by function cause we passed a value in the argument.)
 
+`2` call by refrence.(in this the argument passed is the address of a variable.)
