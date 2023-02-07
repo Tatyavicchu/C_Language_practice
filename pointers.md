@@ -51,3 +51,22 @@ return 0;
 `1` call by value.(all the prevoiusly used function were call by function cause we passed a value in the argument.)
 
 `2` call by refrence.(in this the argument passed is the address of a variable.)
+### `-` Code  1.2
+    Swap of two numbers with the help of a third variable.
+```c
+   #include<stdio.h>
+void swap(int *x, int *y){
+ int z=*x;
+  *x=*y;
+  *y=z;
+  printf("%d %d\n",*x,*y);
+}
+int main(){
+  int a, b;
+  printf("enter the two numbers : ");
+  scanf("%d%d",&a,&b);
+  swap(&a,&b);
+  printf("%d %d",a,b);
+  return 0;
+}
+```
