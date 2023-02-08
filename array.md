@@ -2,9 +2,11 @@
 `-`  A collection of similar data in the memory is called array.
 ## Pointer Arithmetic
 `-` pointers can be incremented and decremented.
+
 `-` Pointers can be substracted.
+
 `-` We can also compare two pointers. The result wil be in binary showing true(1)/false(0).
-`-` 
+ 
 `-` pointers can be used in an array as the following example :
 ## `Code 1.1` 
 ```c
@@ -44,4 +46,9 @@ int arr[]={29,30,78,87,876};
 `declaration` :
 ```c
 void declaration(int arr[],int n)  // where n is the size of array.
+```
+### Multidimensional array
+`Declaration`
+```c
+int arr[rows][coloums]={{12,34} ,{43,54}};
 ```
