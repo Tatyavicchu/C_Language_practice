@@ -24,6 +24,7 @@ scanf("%s",chara);  // '&' is not used because string name is already an pointer
 ```
 `NOTE :` scanf cannot take input of multiple characters with spaces between them. For example : mohit bhandari. Hence use gets() & puts(). 
 ### gets()/puts()
+## `code 1.2`
 ```c
 #include<stdio.h>
 int main(){
@@ -33,6 +34,19 @@ int main(){
   return 0;
 }
 ```
-`Note-` since gets() is dangeorus and outdated it  is replaced by fgets().
+`Note-` since cgets() is dangeorus and outdated it  is replaced by fgets().
+
 `Format of fgets()`: fgets(string name, size of the string,stdin)   // stdin= standard input.
- `-` It stops when n-1 characters are input or enter  or next line is entered.
+
+`-` It stops when n-1 characters are input or enter  or next line is entered.
+
+## `code 1.3`
+ ```c
+ #include<stdio.h>
+int main(){
+  char fullname[50];
+  fgets(fullname,50,stdin);
+  puts(fullname);
+  return 0;
+}
+ ```
