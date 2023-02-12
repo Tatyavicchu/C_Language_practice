@@ -50,3 +50,28 @@ int main(){
   return 0;
 }
  ```
+ # Standard library functions -> #include<string.h>
+### `1` strlen()
+```c
+ strlen(string) -> counts number of the characters in a string excluding '\0'.
+ ```
+### `for example: Code 1.4`
+```c
+ #include<stdio.h>
+#include<string.h>
+int main(){
+  char ch[]="mohit";
+  int length=strlen(ch);  // here strlen() gives us a unsigned long value which is then typecasted into integer value. 
+  printf("%d",length);
+  return 0;
+}
+```
+
+### `2` strcpy()
+```c
+strcpy(new string,old string) -> this copies the old string into the new string but does not change/update the old string.
+```
+### `for example : code 1.5`
+```c
+
+```
