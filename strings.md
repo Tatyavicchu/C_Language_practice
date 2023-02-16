@@ -73,5 +73,31 @@ strcpy(new string,old string) -> this copies the old string into the new string 
 ```
 ### `for example : code 1.5`
 ```c
+#include<stdio.h>
+#include<string.h>
 
+int main(){
+  char str1[]="hello";
+  char str2[]= "world";
+  strcpy(str1,str2);
+  puts(str1);
+  return 0;
+}
+```
+### `2` strcat()
+```c
+strcat(new string,old string) -> this ccombines the two strings.
+```
+### `for example: code 1.6`
+```c
+#include<stdio.h>
+#include<string.h>
+
+int main(){
+  char str1[10000]="hello";
+  char str2[600]= "world";
+  strcat(str1,str2);
+  puts(str1);
+  return 0;
+}
 ```
