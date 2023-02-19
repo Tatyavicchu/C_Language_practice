@@ -84,7 +84,7 @@ int main(){
   return 0;
 }
 ```
-### `2` strcat()
+### `3` strcat()
 ```c
 strcat(new string,old string) -> this ccombines the two strings.
 ```
@@ -97,7 +97,51 @@ int main(){
   char str1[10000]="hello";
   char str2[600]= "world";
   strcat(str1,str2);
-  puts(str1);
+  puts(str1);  // OUtput = hello world.
+  return 0;
+}
+```
+### `4` strcmp()
+```c
+strcmp(new string,old string) -> this compares the two strings through ASCII value.
+```
+### `for example code 1.7`
+### `1`: when strings are equal.
+```c
+#include<stdio.h>
+#include<string.h>
+
+int main(){
+  char str1[10000]="hello";
+  char str2[600]= "hello";
+  
+  printf("%d",(strcmp(str1,str2)));  // Output = 0.
+  return 0;
+}
+```
+### `2`: when strings 1 is bigger.
+```c
+#include<stdio.h>
+#include<string.h>
+
+int main(){
+  char str1[10000]="world";
+  char str2[600]= "hello";
+  
+  printf("%d",(strcmp(str1,str2)));  // Output = 15.
+  return 0;
+}
+```
+### `1`: when string 2 is bigger .
+```c
+#include<stdio.h>
+#include<string.h>
+
+int main(){
+  char str1[10000]="hello";
+  char str2[600]= "zzzz";
+  
+  printf("%d",(strcmp(str1,str2)));  // Output = -16.
   return 0;
 }
 ```
