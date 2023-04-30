@@ -46,7 +46,16 @@ struct student x[100];
 ```c
 x[0].roll=200;
 ```
-### `for example : CODE 1.2`
-```c
 
+### Nesting of structures
+```c
+struct pokemon{
+int power;
+float health;
+char name;
+};
+struct superpokemon{
+int ability;
+struct pokemon x;
+};
 ```
