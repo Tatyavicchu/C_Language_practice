@@ -1,5 +1,6 @@
 # STRUCTURES
  `A collection of values of diffrent data types.`
+ 
  `structure is an user defined data types which can hold multiple types of data type.`
 
 ### `Syntax`
@@ -58,4 +59,26 @@ struct superpokemon{
 int ability;
 struct pokemon x;
 };
+```
+## `use of typedef`
+
+`typedef is used to rename the existing or new data type`.
+
+```c
+#include<stdio.h>
+#include<string.h>
+typedef int number; renaming "int" by "number". both int and number can be used.
+int main(){
+number x;
+scanf("%d",&x);
+printf("%d",x);
+return 0;
+}
+
+```
+
+### `typedef in structures`
+
+```c
+
 ```
