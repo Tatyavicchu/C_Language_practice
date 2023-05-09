@@ -70,7 +70,7 @@ int main(){
   return 0;
 }
 ```
-##Pointer to Constant
+## Pointer to Constant
 
 `a pointer to a constant is a pointer that can be changed to point to a different memory location, but the value of the object it points to cannot be modified. To declare a pointer to a constant, the const keyword is placed before the type of the object being pointed to`
 
@@ -78,7 +78,7 @@ int main(){
 
 
 ```
-## constant pointer
+## Constant Pointer
 `A constant pointer is a pointer whose value (i.e., the memory address it points to) cannot be changed once it is initialized. However, the object that it points to can be modified. To declare a constant pointer, the const keyword is placed before the type of the object being pointed to.`
 
 ```c
