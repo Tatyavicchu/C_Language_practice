@@ -75,7 +75,10 @@ int main(){
 `a pointer to a constant is a pointer that can be changed to point to a different memory location, but the value of the object it points to cannot be modified. To declare a pointer to a constant, the const keyword is placed before the type of the object being pointed to`
 
 ```c
-
+int x = 10;
+const int* ptr = &x; // pointer to constant int
+*ptr = 20; // invalid, the value of the object being pointed to cannot be modified
+ptr = &y; // valid, ptr can be changed to point to a different memory location
 
 ```
 ## Constant Pointer
