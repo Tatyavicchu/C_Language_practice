@@ -53,7 +53,20 @@ return 0;
  
  ### `fgets`  `->` to get a string form the file to the console. //fgets(file pointer);
  ```c
- 
+ #include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+
+int main(){
+char str[100];
+ FILE* ptr=fopen("filehandlingin c.txt","r");
+ if(ptr!=EOF){
+   fgets(str,50,ptr);
+ }
+ puts(str);
+return 0;
+}
+
  ```
  
  ### `fgetc`  `->` to get a character form the file to the console. //fgetc(file pointer);
@@ -75,8 +88,3 @@ return 0;
 
  ```
  
- ### `fprintf`  `->`
-
- ### `fscanf`  `->`
- 
-
