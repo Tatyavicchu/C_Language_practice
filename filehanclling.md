@@ -88,3 +88,37 @@ return 0;
 
  ```
  
+ ### `fseek` `->` sets the file pointer to given position. // fseek(file pointer, offset,poition)
+ 
+ `-->>` `positon is of 3 types.`
+ 
+    `1->` beginning \\   FSEEK_SET  = pointer at the beginning
+ 
+    `2->` at any random position \\ FSEEK_cur= current offset
+ 
+    `3->` end \\ FSEEK_END =pointer at the end of the file
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
